@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './home';
+import './style/index.css';
+import Hat from './hat';
+import About from './about';
 import Portfolio from './portfolio';
 import Contact from './contact';
 import reportWebVitals from './reportWebVitals';
@@ -9,9 +10,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Hat />
+    <About />
     <Portfolio />
-    <Contact />
+    <Contact /> 
   </React.StrictMode>
 );
 

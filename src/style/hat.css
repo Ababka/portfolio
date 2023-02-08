@@ -1,0 +1,12 @@
+.ribbon {
+  background-color: black;
+  display: flex;
+  height: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 20%, 0 100%);
+}
+
+.branding {
+  border-radius: 50%;
+  height: 200px;
+  margin-top: 20px;
+}

@@ -4,12 +4,9 @@
   font-family: 'Krona One', sans-serif;
   text-decoration: none;
   list-style: none;
+  background-color: rgb(163, 195, 218);
 }
 
-html {
-  background-color: rgb(99, 96, 96);
-}
-
-a, a:visited, a:hover, a:active {
+/* a, a:visited, a:hover, a:active {
   color: inherit;
-}
+} */
